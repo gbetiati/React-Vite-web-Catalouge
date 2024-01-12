@@ -1,0 +1,35 @@
+.title {
+  border-bottom: 4px solid rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-bottom: 1%;
+  width: 100%;
+  min-height: 35rem;
+  max-height: 70rem;
+
+  .divfoto {
+    background-color: rgba(54, 182, 182, 0.151);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    img{
+      border-radius: 25px;
+      margin: 20px 20px;
+      max-height: 55vh;
+      max-width: 25vw;
+      min-height: 25vh;
+    }
+  }
+   
+
+ 
+}
+
+.para{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
